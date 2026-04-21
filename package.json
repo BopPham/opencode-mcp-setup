@@ -1,0 +1,32 @@
+{
+  "name": "@thiennc/opencode-mcp-setup",
+  "version": "1.0.0",
+  "description": "One-command setup OpenCode with gitnexus, context7, playwright, sequential-thinking MCPs",
+  "main": "index.js",
+  "bin": {
+    "setup-opencode": "index.js"
+  },
+  "files": [
+    "index.js",
+    "test.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "opencode",
+    "mcp",
+    "gitnexus",
+    "playwright",
+    "setup"
+  ],
+  "author": "thiennc",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
